@@ -9,7 +9,7 @@ config:
       text: 知识分享站
       tagline: 为物理学爱好者的提供自学的帮助
       background: tint-plate
-      image: /dogehome.jpg
+      # image: /dogehome.jpg
       actions:
         -
           theme: brand
@@ -18,7 +18,7 @@ config:
         -
           theme: alt
           text: Github
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/rucijin/tungsten_core_physics
   -
     type: custom
 ---

@@ -28,7 +28,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://rucijin.github.io/tungsten_core_physics/',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -79,16 +79,16 @@ export default defineUserConfig({
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
-      // shiki: {
-      //   // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-      //   twoslash: true, // 启用 twoslash
-      //   whitespace: true, // 启用 空格/Tab 高亮
-      //   lineNumbers: true, // 启用行号
-      // },
+      shiki: {
+        // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+        languages: ['python', 'typescript', 'javascript'],
+        twoslash: true, // 启用 twoslash
+        whitespace: true, // 启用 空格/Tab 高亮
+        lineNumbers: true, // 启用行号
+      },
 
       /* 本地搜索, 默认启用 */
-      // search: true,
+      // search: false,
 
       /**
        * Algolia DocSearch
@@ -108,21 +108,21 @@ export default defineUserConfig({
        * markdown enhance
        * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
        */
-      // markdownEnhance: {
-      //   chartjs: true,
-      //   echarts: true,
-      //   mermaid: true,
-      //   flowchart: true,
-      // },
+      markdownEnhance: {
+        chartjs: true,
+        echarts: true,
+        mermaid: true,
+        flowchart: true,
+      },
 
       /**
        *  markdown power
        * @see https://theme-plume.vuejs.press/config/plugin/markdown-power/
        */
-      // markdownPower: {
+      markdownPower: {
+        plot: true,         // 启用隐秘文本语法 !!xxxx!!
       //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
-      //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
       //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
       //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
@@ -140,13 +140,13 @@ export default defineUserConfig({
       //     kotlin: true,     // ::: kotlin-repl
       //   },
       //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
-      // },
+      },
 
       /**
        * 在 Markdown 文件中导入其他 markdown 文件内容。
        * @see https://theme-plume.vuejs.press/guide/markdown/include/
        */
-      // markdownInclude: true,
+      markdownInclude: true,
 
       /**
        * Markdown 数学公式

@@ -2,12 +2,6 @@ import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
 /* =================== locale: zh-CN ======================= */
 
-const zhDemoNote = defineNoteConfig({
-  dir: 'demo',
-  link: '/demo',
-  sidebar: ['', 'foo', 'bar'],
-})
-
 const zhMathNote = defineNoteConfig({
   dir: 'math',
   link: '/math',
@@ -35,7 +29,7 @@ const zhEnglishNote = defineNoteConfig({
 export const zhNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zhDemoNote, zhMathNote, zhPhysicsNote, zhAixphysicsNote, zhEnglishNote],
+  notes: [zhMathNote, zhPhysicsNote, zhAixphysicsNote, zhEnglishNote],
 })
 
 /* =================== locale: en-US ======================= */

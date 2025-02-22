@@ -11,7 +11,7 @@ export default defineThemeConfig({
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://rucijin.github.io/tungsten_core_physics/' },
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
@@ -50,7 +50,7 @@ export default defineThemeConfig({
         name: 'Tungsten Core',
         description: '为物理学爱好者提供自学的帮助。',
         // circle: true,
-        // location: '',
+        location: 'Shenzhen, China',
         // organization: '',
       },
 
