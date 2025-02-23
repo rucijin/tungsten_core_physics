@@ -10,9 +10,14 @@ export const zhNavbar = defineNavbarConfig([
       { text: '归档', link: '/blog/archives/' },
     ]
   },
-  { text: '普通物理', link: '/notes/physics/README.md' },
+  { text: '理论力学', link: '/notes/analyticalmechanics/README.md' },
+  { text: '电动力学', link: '/notes/electrodynamics/README.md' },
+  { text: '量子力学', link: '/notes/quantummechanics/README.md' },
+  { text: '统计物理', link: '/notes/statisticalphysics/README.md' },
+  { text: '相对论', link: '/notes/relativitytheory/README.md' },
   { text: '数学', link: '/notes/math/README.md' },
   { text: 'AIx物理', link: '/notes/aixphysics/README.md' },
+  { text: '英语基础', link: '/notes/english/README.md' },
   {
     text: '其它讲义',
     items: [
