@@ -21,7 +21,6 @@ export const zhNavbar = defineNavbarConfig([
   {
     text: '其它讲义',
     items: [
-      { text: '示例', link: '/notes/demo/README.md' },
       { text: '普通物理', link: '/notes/physics/README.md' },
       { text: '数学', link: '/notes/math/README.md' },
       { text: 'AIx物理', link: '/notes/aixphysics/README.md' },
